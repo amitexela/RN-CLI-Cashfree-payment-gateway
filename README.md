@@ -1,6 +1,4 @@
-# React Native Sdk Demo App
-
-This is a sample react native application demonstrating and utilizing Cashfree [react-native-pg-react-native-sdk](https://www.npmjs.com/package/react-native-pg-react-native-sdk).
+# React Native Cashfree Payment Demo App
 
 ## Requirements
 
@@ -17,22 +15,16 @@ This app requires the following.
 
 ## Installation And Setup
 
-- Clone the github project using **zip file download** or using **git**.
-
-  ```bash
-  git clone https://github.com/cashfree/react-native-pgsdk-demo-app.git
-  ```
-
 - Go to the project folder Install the node dependencies.
 
   ```bash
-  cd react-native-pgsdk-demo-app && npm install
+  npm install
   ```
 
   or ( for yarn users )
 
   ```bash
-  cd react-native-pgsdk-demo-app && yarn install
+  yarn install
   ```
 
 - Go to the "ios" folder and install the pod dependencies.
@@ -50,51 +42,13 @@ To Run a specific platform use the following
 - ### Android
 
   ```bash
-  npm react-native run-android
-  ```
-
-  or
-
-  ```bash
-  yarn react-native run-android
-  ```
-
-  or
-
-  ```bash
-  react-native run-android
+  npm run android
   ```
 
 - ### iOS
 
   ```bash
-  npm react-native run-ios
-  ```
-
-  or
-
-  ```bash
-  yarn react-native run-ios
-  ```
-
-  or
-
-  ```bash
-  react-native run-ios
-  ```
-
-
-
-- ### Node server
-
-  ```bash
-  npm start
-  ```
-
-  or
-
-  ```bash
-  yarn start
+  npm run ios
   ```
 
 
