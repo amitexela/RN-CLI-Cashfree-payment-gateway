@@ -1,4 +1,4 @@
-## UPI Payment Gateway for React Native CLI
+## Razorpay Payment Gateway for React Native CLI
 
 ### To run this project
 npm install
