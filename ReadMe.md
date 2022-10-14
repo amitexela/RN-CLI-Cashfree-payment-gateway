@@ -1,4 +1,4 @@
-## Razorpay Payment Gateway for React Native CLI
+## Cashfree Payment Gateway for React Native CLI
 
 ### To run this project
 npm install
