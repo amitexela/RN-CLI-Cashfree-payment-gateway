@@ -62,10 +62,6 @@ export default class App extends Component {
             },
             data : data
           };
-          // git remote add origin command
-          // git remote add origin https://github.com/amitexela/RN-Razorpay-payment-gateway.git
-          // git remote add origin https://github.com/amitexela/RN_CLI_UPI.git
-          // 
           // -------------- end
           const response = await axios(config);
           console.log('response', response.data.order_token, response.data.order_id);
