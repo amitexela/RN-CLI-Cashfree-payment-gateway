@@ -1,0 +1,11 @@
+rootProject.name = 'DemoAppNew'
+include ':react-native-pg-react-native-sdk'
+project(':react-native-pg-react-native-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pg-react-native-sdk/android')
+include ':react-native-pg-react-native-sdk'
+project(':react-native-pg-react-native-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pg-react-native-sdk/android')
+include ':react-native-pg-react-native-sdk'
+project(':react-native-pg-react-native-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pg-react-native-sdk/android')
+include ':react-native-native-toast-library'
+project(':react-native-native-toast-library').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-native-toast-library/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
